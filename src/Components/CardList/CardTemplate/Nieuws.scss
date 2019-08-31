@@ -1,0 +1,22 @@
+@import '../../../common';
+.nieu {
+  padding: 17px 18px;
+  .list-item {
+    display: flex;
+    flex-grow: 1;
+    padding-bottom: 28px;
+    padding-top: 26px;
+    .item-details {
+      padding-left: 10px;
+      flex-grow: 1;
+      color: #657189;
+      font-family: "Open Sans";
+      font-size: 14px;
+      line-height: 33px;
+      .item-ifo {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}

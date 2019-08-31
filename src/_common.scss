@@ -1,0 +1,18 @@
+@import "./color";
+.font-normal {
+  font-weight: 300;
+}
+.italic{
+  font-style: italic;
+}
+.font-bold {
+  font-weight: 700;
+}
+.date {
+  color: $primary;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+  margin-right: 40px;
+}

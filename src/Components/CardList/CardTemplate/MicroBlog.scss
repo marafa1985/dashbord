@@ -1,0 +1,59 @@
+@import "../.../../../../common";
+.block-header {
+  margin: 25px;
+  margin-bottom: 80px;
+  .text-area {
+    height: 180px;
+    width: 98%;
+  }
+  .control {
+    display: flex;
+    justify-content: space-between;
+    .btn {
+      width: 107px;
+      height: 32px;
+      background: #44b9f6;
+      border: 0px;
+      color: #ffffff;
+      font-family: "Open Sans";
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 22px;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+.block-person {
+  color: #657189;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 19px;
+  padding: 0px 25px;
+  padding-bottom: 50px;
+  .list-item {
+    display: flex;
+    flex-grow: 1;
+    .item-details {
+      padding-left: 10px;
+      flex-grow: 1;
+      .item-ifo {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+.block-footer {
+  margin: 0 25px 16px 25px;
+  color: #657189;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 19px;
+  img {
+    margin-bottom: 15px;
+  }
+}

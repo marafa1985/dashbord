@@ -1,0 +1,9 @@
+.card-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  margin: 15px 50px 0 50px;
+  ul{
+    list-style: none;
+  }
+}

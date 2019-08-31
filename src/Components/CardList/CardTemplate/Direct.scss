@@ -1,0 +1,19 @@
+.direct {
+    padding: 0 28px 15px 28px;
+  .direct-item {
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    .item-image{
+        min-width: 100px;
+    }
+    .item-details{
+        padding-right: 18px;
+        color: #657189;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
+    }
+  }
+}

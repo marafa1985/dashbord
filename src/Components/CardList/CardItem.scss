@@ -1,0 +1,42 @@
+@import "../../color";
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  // width: 380px;
+  border: solid 1px $cardborder;
+  .card-header {
+    display: flex;
+    align-content: stretch;
+    .card-title {
+      display: flex;
+      align-items: center;
+      color: $orange;
+      font-family: "Open Sans";
+      font-size: 18px;
+      font-weight: 700;
+      padding: 0 10px;
+      flex-grow: 1;
+      justify-content: space-between;
+    }
+  }
+  .card-body {
+    .peilin {
+      padding: 50px 25px;
+      color: #657189;
+      font-family: "Open Sans";
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 19px;
+    }
+    ul {
+      li {
+        border-bottom: 1px solid $cardborder;
+        &:last-child {
+          border-bottom: 0px;
+          padding-bottom: 0px;
+        }
+      }
+    }
+  }
+}

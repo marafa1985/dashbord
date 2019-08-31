@@ -1,0 +1,37 @@
+@import "../../../common";
+
+.telef {
+  background: linear-gradient(134deg, #00c4e6, #00c4e6);
+  flex-grow: 1;
+  .telef-bg {
+    // width: 380px;
+    // height: 176px;
+    background-image: url("/img/telephone.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 20px;
+    .title {
+      color: #ffffff;
+      font-family: "Open Sans";
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 25px;
+      margin-bottom: 15px;
+      text-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+    }
+    .details {
+      color: #ffffff;
+      font-family: "Open Sans";
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 16px;
+      margin-bottom: 25px;
+    }
+    .search {
+      margin-bottom: 40px;
+      .search-icon {
+        background: #ffffff;
+      }
+    }
+  }
+}

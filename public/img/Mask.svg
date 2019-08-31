@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="380px" height="319px" viewBox="0 0 380 319" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <path d="M0 0L380 0L380 319L0 319L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Mask">
+    <g clip-path="url(#mask_1)">
+      <use xlink:href="#path_1" fill="none" stroke="#DAE4EE" stroke-width="2" />
+    </g>
+  </g>
+</svg>

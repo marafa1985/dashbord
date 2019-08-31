@@ -1,0 +1,19 @@
+@import "../../../color";
+.card-footer {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  background: $line;
+  justify-content: space-between;
+  .footer-text {
+    color: $primary;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+    margin: 0 15px;
+  }
+  .icon {
+    background: $cardborder !important;
+  }
+}
