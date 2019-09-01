@@ -1,0 +1,51 @@
+.card-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  flex-wrap: wrap;
+  ul {
+    list-style: none;
+    flex-grow: 1;
+    flex-basis: 0;
+    width: 90%;
+    padding-left: 40px;
+    li {
+      padding: 18px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .card-list {
+    .last-List {
+      display: flex;
+      flex-wrap: wrap;
+      .second{
+        order: 2;
+      }
+      .third{
+        order: 1;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    ul {
+      list-style: none;
+      flex-grow: 1;
+      flex-basis: 0;
+      width: 90%;
+      padding-left: 40px;
+      padding-top: 25px;
+      li {
+        padding: 18px;
+      }
+    }
+  }
+}

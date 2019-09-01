@@ -1,8 +1,10 @@
 import Menu from './Header/Menu';
-import CardList from "./CardList/CardList";
+import CardList from "../Pages/CardList";
+import StickyMenu from "./StickyMenu/StickyMenu";
 
 
 export {
     Menu,
-    CardList
+    CardList,
+    StickyMenu
 }

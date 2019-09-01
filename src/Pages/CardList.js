@@ -1,10 +1,10 @@
 import React from 'react';
 import './CardList.scss';
-import CardItem from './CardItem';
-import Accordion from './Accordion/Accordion';
-import CardFooter from './CardFooter/CardFooter';
-import Telefoonboek from './Telefoonboek/Telefoonboek';
-import { Evenementen, Nieuws, Direct, Blogs, Kwalite, MicroBlog, links, Groepen } from '../../Helpers/Data'
+import CardItem from '../Components/CardList/CardItem';
+import Accordion from '../Components/CardList/Accordion/Accordion';
+import CardFooter from '../Components/CardList/CardFooter/CardFooter';
+import Telefoonboek from '../Components/CardList/Telefoonboek/Telefoonboek';
+import { Evenementen, Nieuws, Direct, Blogs, Kwalite, MicroBlog, links, Groepen } from '../Helpers/Data'
 
 
 const CardList = (props) => {
@@ -41,15 +41,15 @@ const CardList = (props) => {
                     <CardItem data={links} icon="kwaliteitshandboek" cardTemplate="Kwalite" cardTitle="kwaliteitshandboek" showFooter={false} />
                 </li>
             </ul>
-            <ul>
+            <ul className="last-List">
                 <li>
                     <Telefoonboek />
                 </li>
-                <li>
-                    <CardItem data={MicroBlog} icon="Shape" cardTemplate="MicroBlog" cardTitle="microblog" footerPrfix="Toon" />
+                <li className="second">
+                    <CardItem  data={MicroBlog} icon="Shape" cardTemplate="MicroBlog" cardTitle="microblog" footerPrfix="Toon" />
                 </li>
-                <li>
-                    <CardItem data={Groepen} icon="groups" cardTemplate="Direct" cardTitle="Mijn groepen" footerPrfix="Meer" collection="Card2" />
+                <li className="third">
+                    <CardItem  data={Groepen} icon="groups" cardTemplate="Direct" cardTitle="Mijn groepen" footerPrfix="Meer" collection="Card2" />
                 </li>
             </ul>
         </div>
