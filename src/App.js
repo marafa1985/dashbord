@@ -1,13 +1,19 @@
 import React from 'react';
-import { Menu, CardList, StickyMenu } from "./Components/index";
+import CardList from './Pages/CardList';
+import Contact from './Pages/Contact';
+import { Menu, StickyMenu } from "./Components/index";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <Menu />
-      <StickyMenu />
-      <CardList />
+      <Router>
+        <Menu />
+        <StickyMenu />
+        <Route path="/" exact component={CardList} />
+        <Route path="/contact" exact component={Contact} />
+      </Router>
     </div>
   );
 }

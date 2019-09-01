@@ -1,0 +1,48 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  .title {
+    color: #ff952d;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    margin: 15px 0;
+  }
+  p {
+    color: #657189;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+    margin-bottom: 10px;
+  }
+
+  .control {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .btn {
+      width: 107px;
+      height: 32px;
+      background: #44b9f6;
+      border: 0px;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 22px;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+    .contact {
+        width: 80% !important;
+    }
+}

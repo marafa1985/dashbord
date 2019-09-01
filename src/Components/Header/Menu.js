@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 import SearchInput from '../SearchInput/SearchInput';
 import './Menu.scss';
 
@@ -20,7 +21,7 @@ class Menu extends Component {
                     <div className="top-menu">
                         <ul className="nav">
                             <li>Groepen</li>
-                            <li>Contact</li>
+                            <li><Link to="/contact">Contact</Link></li>
                             <li>FAQ</li>
                             <li>Smoelenboek</li>
                             <li>Microblog </li>
@@ -62,7 +63,7 @@ class Menu extends Component {
                     </div>
                     {this.state.isOpen && <ul className="nav-links_mobile">
                         <li>Groepen</li>
-                        <li>Contact</li>
+                        <li><Link to="/contact">Contact</Link></li>
                         <li>FAQ</li>
                         <li>Smoelenboek</li>
                         <li>Microblog </li>

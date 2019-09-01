@@ -1,0 +1,29 @@
+.input-text {
+  display: flex;
+  margin: 5px 0;
+  align-items: center;
+  label {
+    display: inline-block;
+    width: 100px;
+    color: #657189;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+  }
+  input,
+  textarea {
+    border: solid 1px #dae4ee !important;
+    height: 30px;
+    flex-grow: 1;
+    border: 0px;
+    color: #657189;
+    font-size: 14px;
+    &:focus {
+      border: 0px;
+      outline: 0;
+    }
+  }
+  textarea {
+    height: 100px;
+  }
+}

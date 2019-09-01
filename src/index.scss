@@ -1,6 +1,10 @@
 @import './color';
 @import './common';
 @import './fonts';
+* {
+  font-family: "Open Sans";
+}
+
 html,
 body,
 ul,
@@ -11,6 +15,4 @@ p {
   padding: 0;
 }
 
-body {
-  font-family: "Open Sans";
-}
+
