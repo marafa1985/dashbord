@@ -1,16 +1,16 @@
 // Direct
 const Direct = [{
-    id: 1,
+    id: 11,
     img: "images.png",
     text: "Youforce"
 },
 {
-    id: 2,
+    id: 12,
     img: "Bitmap.png",
     text: "MIP-meldingen"
 },
 {
-    id: 3,
+    id: 13,
     img: "Bitmap 3.png",
     text: "Topdesk"
 }];
@@ -66,14 +66,17 @@ const Blogs = {
 };
 
 const Evenementen = [{
+    id:1,
     date: "10/12/2016",
     text: "Zorgmarathon"
 },
 {
+    id:2,
     date: "12/12/2016",
     text: "Beurs"
 },
 {
+    id:3,
     date: "30/12/2016",
     text: "Onze zorgevenement"
 }];

@@ -5,7 +5,7 @@ const Kwalite = (props) => {
         <ul className="Kwal">
             {props.data.map((item) => {
                 return (
-                    <li className="list-item" key={item}>
+                    <li className="list-item" key={item.id}>
                         <div>
                             <div className="font-bold">
                                 {item.title}

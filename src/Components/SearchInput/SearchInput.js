@@ -3,7 +3,7 @@ import './SearchInput.scss';
 const SearchInput = (props) => {
     return (
         <div className="search">
-            <input type="text" placeholder="Search" name="usrnm" />
+            <input type="text" name="usrnm" />
             <div className="search-icon">
                 <img src='./img/zoeken.svg' alt="menu search" />
             </div>

@@ -16,6 +16,7 @@ class Contact extends Component {
 
     submitForm = (e) => {
         e.preventDefault();
+        alert("The form has been successfully submitted")
     }
     inputChange = (e) => {
         this.setState({

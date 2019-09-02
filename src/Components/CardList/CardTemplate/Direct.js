@@ -7,7 +7,7 @@ const Direct = (props) => {
         <ul className="direct">
             {props.data && props.data.map((item) => {
                 return (
-                    <li className="direct-item" key={item}>
+                    <li className="direct-item" key={item.id}>
                         <div className="item-image">
                             <img src={`./img/${item.img}`} alt="laptop" />
                         </div>

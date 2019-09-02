@@ -7,12 +7,12 @@ const InputText = (props) => {
         props.inputChange(e);
     }
     return (
-        <div className="input-text">
+        <div className={"input-text " + props.type}>
             <label>{props.label}</label>
             {(props.type === "text" || props.type === "email") && <input type={props.type} name={props.name}
-                value={props.value} onChange={(e) => textChange} />}
-            {props.type === "textarea" && <textarea type="text" name={props.name}
-                value={props.value} onChange={(e) => textChange} />}
+                value={props.value} onChange={(e) => textChange} required />}
+            {props.type === "textarea" && <textarea name={props.name}
+                value={props.value} onChange={(e) => textChange} required />}
         </div>
     )
 }

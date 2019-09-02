@@ -1,21 +1,12 @@
-@import "../../color";
+@import "../../common";
 .search {
-//   margin-right: 70px !important;
   display: flex;
   align-items: center;
-  border: solid 1px #dae4ee;
-  background: white;
-//   margin: 15px;
+  justify-content: center;
+  border: solid 1px $cardborder;
+  background: $white;
   padding-left: 5px;
   height: 45px;
-  input {
-    flex-grow: 1;
-    border: 0px;
-    &:focus {
-      border: 0px;
-      outline: 0;
-    }
-  }
   .search-icon {
     border: 0px;
     width: 45px;
@@ -23,7 +14,7 @@
     padding: 0px;
     margin: auto;
     display: flex;
-    background: #e5f0fa;
+    background: $secondary;
     align-items: center;
     justify-content: center;
   }

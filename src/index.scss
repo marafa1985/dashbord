@@ -2,7 +2,7 @@
 @import './common';
 @import './fonts';
 * {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
 }
 
 html,
@@ -14,5 +14,24 @@ p {
   margin: 0;
   padding: 0;
 }
+
+input,
+  textarea {
+    border: solid 1px $cardborder ;
+    height: 30px;
+    flex-grow: 1;
+    border: 0px;
+    color: $primary;
+    font-size: 14px;
+    &:focus {
+      border: 0px;
+      outline: 0;
+    }
+  }
+
+  textarea {
+    border: solid 1px $cardborder !important;
+    height: 150px;
+  }
 
 

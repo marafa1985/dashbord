@@ -1,0 +1,40 @@
+@import "../../../common";
+
+.bottom-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: $pink;
+
+  padding: 1% 9%;
+  .menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    .nav {
+      text-transform: uppercase;
+      list-style-type: none;
+      align-items: center;
+      display: flex;
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 22px;
+      li {
+        margin: 15px;
+      }
+    }
+    .search-input {
+      min-width: 380px;
+      margin-right: 25px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bottom-menu {
+    display: none;
+  }
+}

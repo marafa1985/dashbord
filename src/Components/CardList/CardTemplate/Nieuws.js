@@ -8,7 +8,7 @@ const Nieuws = (props) => {
             {
                 props.data && props.data.map((item) => {
                 return (
-                    <li className="list-item" key={item}>
+                    <li className="list-item" key={item.id}>
                         <div>
                             <img src={`./img/${item.img}`} alt="laptop" />
                         </div>
