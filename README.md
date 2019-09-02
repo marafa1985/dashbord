@@ -54,10 +54,9 @@ How to use cypress it [https://docs.cypress.io/guides/getting-started/writing-yo
 
 ### Ambiguity
 
-So far, there is no major ambiguity in the task, the only two issues was:
+So far, there is no major ambiguity in the task, the only issue was:
 
-1 - UI/UX guidance need to be more clear for the test taker (margin).
-2 - 
+- UI/UX guidance need to be more clear for the test taker (margin).
 
 ## Available Scripts
 
